@@ -1,0 +1,1064 @@
+ERROR - 2022-06-08 01:10:16 --> Column 'crop_id' cannot be null
+CRITICAL - 2022-06-08 01:10:16 --> Column 'crop_id' cannot be null
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tr...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(568): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry_input()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-08 01:13:27 --> Column 'crop_id' cannot be null
+CRITICAL - 2022-06-08 01:13:27 --> Column 'crop_id' cannot be null
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tr...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(568): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry_input()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 01:23:42 --> You must set the database table to be used with your query.
+#0 D:\xampp\htdocs\rnd\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp\htdocs\rnd\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(608): CodeIgniter\Model->__call('trial_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->in_data()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 01:24:10 --> Too few arguments to function App\Models\Rmodel::trial_view(), 0 passed in D:\xampp\htdocs\rnd\app\Controllers\Home.php on line 608 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(608): App\Models\Rmodel->trial_view()
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->in_data()
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 01:24:40 --> Invalid file: data_view.php
+#0 D:\xampp\htdocs\rnd\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_view.php')
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(610): view('data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->in_data()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 01:25:56 --> Undefined variable: detail
+#0 D:\xampp\htdocs\rnd\app\Views\data_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 55, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(610): view('data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->in_data()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 01:26:39 --> Undefined property: stdClass::$sowing_date
+#0 D:\xampp\htdocs\rnd\app\Views\data_view.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 63, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(610): view('data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->in_data()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 01:26:40 --> Undefined property: stdClass::$sowing_date
+#0 D:\xampp\htdocs\rnd\app\Views\data_view.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 63, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(610): view('data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->in_data()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-08 01:50:17 --> Unknown column 'crops.id' in 'on clause'
+CRITICAL - 2022-06-08 01:50:17 --> Unknown column 'crops.id' in 'on clause'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(405): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(608): App\Models\Rmodel->trial_view()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->in_data()
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-08 01:51:50 --> Undefined property: stdClass::$anyothers
+#0 D:\xampp\htdocs\rnd\app\Views\data_view.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 63, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(610): view('data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->in_data()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 01:55:46 --> Undefined property: stdClass::$timming
+#0 D:\xampp\htdocs\rnd\app\Views\data_view.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 65, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(610): view('data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->in_data()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 02:59:27 --> Undefined property: stdClass::$protocol
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 31, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 03:01:24 --> syntax error, unexpected '?>'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 03:06:23 --> Undefined property: stdClass::$treatment_name
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 123, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 03:32:13 --> syntax error, unexpected 'if' (T_IF)
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 03:32:22 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 03:32:23 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 03:32:23 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 03:32:24 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 03:32:24 --> syntax error, unexpected '='
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 05:01:56 --> syntax error, unexpected '.'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 05:02:23 --> syntax error, unexpected '.'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 05:02:40 --> syntax error, unexpected '.', expecting end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 05:03:06 --> syntax error, unexpected '.', expecting end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 05:03:27 --> syntax error, unexpected '.', expecting end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 05:04:16 --> syntax error, unexpected '.', expecting end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 05:04:52 --> Undefined variable: listen
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 47, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('212')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 05:05:34 --> syntax error, unexpected '?>'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 05:06:58 --> Use of undefined constant Selected - assumed 'Selected' (this will throw an Error in a future version of PHP)
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 05:13:05 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 05:16:51 --> Undefined variable: id
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 168, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 05:17:25 --> Array to string conversion
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 173, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-08 05:18:45 --> Unknown column 'disease.crops_id' in 'on clause'
+CRITICAL - 2022-06-08 05:18:45 --> Unknown column 'disease.crops_id' in 'on clause'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(170): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#8 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#10 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-08 05:28:55 --> Undefined variable: query
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 173, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 05:36:36 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 05:36:49 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 05:45:45 --> Undefined offset: 1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp\\htdocs...', 173, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 05:45:55 --> Undefined offset: 1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp\\htdocs...', 173, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 05:46:05 --> Undefined offset: 2
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp\\htdocs...', 173, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 05:46:15 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 05:46:36 --> Trying to get property 'disease' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 173, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 05:52:21 --> Trying to get property 'disease' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 05:52:50 --> Illegal string offset 'disease'
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 05:54:06 --> Illegal string offset 'disease'
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 05:54:17 --> Trying to get property 'disease' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 05:55:33 --> Use of undefined constant disease - assumed 'disease' (this will throw an Error in a future version of PHP)
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 05:55:49 --> Illegal string offset 'disease'
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 05:56:02 --> Illegal string offset 'disease'
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 06:00:00 --> Uninitialized string offset: 6
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 06:00:10 --> Uninitialized string offset: 6
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 06:03:11 --> Illegal string offset 'disease'
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 06:03:11 --> Illegal string offset 'disease'
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 06:03:26 --> Trying to get property 'disease' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 06:03:31 --> Undefined variable: t
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 06:08:09 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 06:47:34 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:48:13 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:48:46 --> syntax error, unexpected '}'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:48:54 --> syntax error, unexpected '}'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:48:56 --> syntax error, unexpected '}'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:48:56 --> syntax error, unexpected '}'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:48:56 --> syntax error, unexpected '}'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:48:57 --> syntax error, unexpected '}'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:49:04 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:56:47 --> syntax error, unexpected '}'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:57:45 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:58:10 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:58:12 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:58:12 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:58:13 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:58:13 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:58:20 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:58:24 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:58:24 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:58:24 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:58:31 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 06:58:50 --> Trying to get property 'disease' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 163, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 06:59:15 --> Undefined index: disease
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 163, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 06:59:56 --> Undefined index: disease
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 163, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:00:18 --> Undefined index: disease
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 163, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:00:31 --> Trying to get property 'disease' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 163, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:02:33 --> Trying to get property 'disease' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 163, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:02:53 --> Trying to get property 'disease' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:02:54 --> Trying to get property 'disease' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:02:55 --> Trying to get property 'disease' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:02:55 --> Trying to get property 'disease' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('208')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:05:37 --> Undefined offset: 5
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:05:56 --> Trying to get property 'disease' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:06:06 --> Undefined index: disease
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:06:22 --> Undefined index: disease
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:06:24 --> Undefined index: disease
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:06:24 --> Undefined index: disease
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:06:24 --> Undefined index: disease
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:06:58 --> Trying to get property 'disease' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:07:14 --> Undefined index: disease
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:09:47 --> Undefined offset: 5
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:09:58 --> Undefined offset: 9
+#0 D:\xampp\htdocs\rnd\app\Views\edit_data_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 07:10:28 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 07:10:41 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 07:10:45 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 07:18:21 --> syntax error, unexpected '<'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 07:19:21 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 07:21:21 --> syntax error, unexpected '}', expecting ';' or ','
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 23:51:41 --> syntax error, unexpected '}', expecting ';' or ','
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 23:52:38 --> syntax error, unexpected '}', expecting end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 23:52:51 --> syntax error, unexpected '}', expecting end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 23:53:34 --> syntax error, unexpected '}', expecting end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_data_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(619): view('edit_data_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_data_entry('221')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

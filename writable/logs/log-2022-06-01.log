@@ -1,0 +1,1408 @@
+ERROR - 2022-06-01 00:43:27 --> Table 'rnd.crop' doesn't exist
+CRITICAL - 2022-06-01 00:43:27 --> Table 'rnd.crop' doesn't exist
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `crop` S...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `crop` S...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `crop` S...')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `crop` S...', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(222): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(351): App\Models\Rmodel->crop_update(Array, '272')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('272')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-01 00:43:49 --> Table 'rnd.crop' doesn't exist
+CRITICAL - 2022-06-01 00:43:49 --> Table 'rnd.crop' doesn't exist
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `crop` S...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `crop` S...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `crop` S...')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `crop` S...', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(222): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(349): App\Models\Rmodel->crop_update(Array, '272')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('272')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-01 00:44:16 --> Call to a member function where() on bool
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(349): App\Models\Rmodel->crop_update(Array, '272')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('272')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 00:45:41 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rmod...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rmod...')
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(340): spl_autoload_call('App\\Models\\Rmod...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('272')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-01 00:46:04 --> Call to a member function where() on bool
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(349): App\Models\Rmodel->crop_update(Array, '272')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('272')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-01 00:48:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '272' at line 1
+CRITICAL - 2022-06-01 00:48:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '272' at line 1
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM c...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(232): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(351): App\Models\Rmodel->get_crop_by_id('272')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('272')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-01 00:51:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '272' at line 1
+CRITICAL - 2022-06-01 00:51:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '272' at line 1
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM c...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(235): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(351): App\Models\Rmodel->get_crop_by_id('272')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('272')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 01:04:11 --> Undefined variable: builder
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 222, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(349): App\Models\Rmodel->crop_update(Array, '272')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('272')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 01:04:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(349): App\Models\Rmodel->crop_update(Array, '272')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('272')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 01:05:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(349): App\Models\Rmodel->crop_update(Array, '272')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('272')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-01 01:07:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '272' at line 1
+CRITICAL - 2022-06-01 01:07:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '272' at line 1
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM c...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(235): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(351): App\Models\Rmodel->get_crop_by_id('272')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('272')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-01 01:18:17 --> Column 'crop_id' cannot be null
+CRITICAL - 2022-06-01 01:18:17 --> Column 'crop_id' cannot be null
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pl...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(83): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(367): App\Models\Rmodel->plot_insert(Array)
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-01 01:21:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '238' at line 1
+CRITICAL - 2022-06-01 01:21:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '238' at line 1
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM c...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(241): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(351): App\Models\Rmodel->get_crop_by_id('238')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-01 01:24:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '238'' at line 1
+CRITICAL - 2022-06-01 01:24:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '238'' at line 1
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM c...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(241): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(351): App\Models\Rmodel->get_crop_by_id('238')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 01:24:58 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `pl...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(83): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(367): App\Models\Rmodel->plot_insert(Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 01:30:06 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(251): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(367): App\Models\Rmodel->plot_update(Array, '238')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 01:34:02 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(251): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(367): App\Models\Rmodel->plot_update(Array, '238')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 01:37:47 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(251): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(367): App\Models\Rmodel->plot_update(Array, '238')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 01:40:08 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(251): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(370): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 01:40:52 --> syntax error, unexpected '=', expecting ')'
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rmod...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rmod...')
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(340): spl_autoload_call('App\\Models\\Rmod...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-01 01:41:15 --> syntax error, unexpected '=', expecting ')'
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rmod...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rmod...')
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(340): spl_autoload_call('App\\Models\\Rmod...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-01 01:43:29 --> syntax error, unexpected '=', expecting ')'
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rmod...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rmod...')
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(340): spl_autoload_call('App\\Models\\Rmod...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-01 01:43:43 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(251): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(370): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 01:45:38 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(251): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(370): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 01:48:03 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(251): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(370): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 01:49:05 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(251): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(367): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 01:54:32 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(251): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 01:55:25 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(251): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 01:57:03 --> syntax error, unexpected ';', expecting ')'
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rmod...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rmod...')
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(340): spl_autoload_call('App\\Models\\Rmod...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-01 01:57:17 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 251, Array)
+#1 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(251): implode(Array)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 01:57:34 --> Cannot use [] for reading
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 01:58:03 --> Undefined variable: plo
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(251): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 251, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 01:58:16 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 251, Array)
+#1 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(251): implode(Array)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 01:58:30 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 312, Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#3 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#6 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(251): CodeIgniter\Database\BaseBuilder->update(Array)
+#7 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-01 01:58:50 --> Cannot use [] for reading
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 01:59:05 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 312, Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#3 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#6 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(251): CodeIgniter\Database\BaseBuilder->update(Array)
+#7 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-01 01:59:25 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 312, Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#3 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#6 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(251): CodeIgniter\Database\BaseBuilder->update(Array)
+#7 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-01 01:59:57 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 312, Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#3 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#6 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(251): CodeIgniter\Database\BaseBuilder->update(Array)
+#7 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-01 02:01:21 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 248, Array)
+#1 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(248): implode('|', Array)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 02:01:37 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 248, Array)
+#1 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(248): implode('|', Array)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 02:01:52 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 248, Array)
+#1 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(248): implode('|', Array)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 02:02:28 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(252): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 02:04:31 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(252): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 02:05:44 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 181, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('205')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 02:05:49 --> Undefined variable: dose_id
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(247): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 247, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 02:05:54 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 181, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('184')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 02:06:03 --> Undefined variable: dose_id
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(247): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 247, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 02:06:18 --> Undefined variable: dose_id
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(247): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 247, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 02:06:36 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(252): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 02:18:54 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(252): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 02:21:13 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(252): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 02:23:14 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in D:\xampp\htdocs\rnd\app\Models\Rmodel.php on line 252
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(252): CodeIgniter\Database\BaseBuilder->update('Bahawalpur')
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 02:23:46 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(252): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 02:26:45 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(252): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 02:29:48 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(252): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 02:30:11 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(252): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 02:32:06 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(252): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 02:34:12 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(252): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 02:36:14 --> Class 'App\Controllers\plot' not found
+#0 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-01 02:37:21 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\Database\Query.php(312): implode(',', Array)
+#1 D:\xampp\htdocs\rnd\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `plot` S...', Array)
+#2 D:\xampp\htdocs\rnd\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `plot` S...', Array, false)
+#5 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(252): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): App\Models\Rmodel->plot_update(Array, Array)
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-01 02:45:49 --> Undefined variable: e
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(354): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 354, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 02:46:06 --> Undefined variable: e
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(364): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 364, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 02:47:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(351): App\Models\Rmodel->get_crop_by_id('238')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 02:48:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(351): App\Models\Rmodel->get_crop_by_id('238')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 02:52:42 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 260, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(365): App\Models\Rmodel->get_plot_by_id('238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 02:53:10 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 260, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(365): App\Models\Rmodel->get_plot_by_id('238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 02:53:59 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 260, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(365): App\Models\Rmodel->get_plot_by_id('238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 02:56:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(365): App\Models\Rmodel->get_plot_by_id('238')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 02:56:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(365): App\Models\Rmodel->get_plot_by_id('238')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 02:56:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::Row()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(365): App\Models\Rmodel->get_plot_by_id('238')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 02:56:58 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 260, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(365): App\Models\Rmodel->get_plot_by_id('238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 02:58:13 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 260, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(365): App\Models\Rmodel->get_plot_by_id('238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 03:09:42 --> Too few arguments to function App\Models\Rmodel::farmer_update(), 1 passed in D:\xampp\htdocs\rnd\app\Controllers\Home.php on line 375 and exactly 2 expected
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 03:10:02 --> Too few arguments to function App\Models\Rmodel::get_farmer_by_id(), 0 passed in D:\xampp\htdocs\rnd\app\Controllers\Home.php on line 377 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(377): App\Models\Rmodel->get_farmer_by_id()
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 03:24:01 --> Trying to get property 'brand' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 283, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(387): App\Models\Rmodel->update_brand(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 03:25:37 --> Trying to get property 'brand' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 283, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(387): App\Models\Rmodel->update_brand(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 03:26:28 --> Trying to get property 'brand' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 283, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(387): App\Models\Rmodel->update_brand(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 03:27:21 --> Trying to get property 'brand' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(387): App\Models\Rmodel->update_brand(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 03:29:22 --> Trying to get property 'brand' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(387): App\Models\Rmodel->update_brand(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 03:30:03 --> Trying to get property 'name' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(387): App\Models\Rmodel->update_brand(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 03:31:54 --> Trying to get property 'name' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(387): App\Models\Rmodel->update_brand(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 03:32:43 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(387): App\Models\Rmodel->update_brand(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 03:48:46 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(387): App\Models\Rmodel->update_brand(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 03:48:54 --> Trying to get property 'name' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(387): App\Models\Rmodel->update_brand(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 04:41:01 --> Undefined index: id
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(387): App\Models\Rmodel->update_brand(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 04:42:16 --> Undefined index: id
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(387): App\Models\Rmodel->update_brand(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 04:42:24 --> Undefined index: id
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(387): App\Models\Rmodel->update_brand(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 04:54:10 --> Trying to get property 'name' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(387): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 387, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-01 04:59:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE formulation ='100% GD'' at line 1
+CRITICAL - 2022-06-01 04:59:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE formulation ='100% GD'' at line 1
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM b...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM b...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM b...')
+#3 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(287): CodeIgniter\Database\BaseConnection->query('SELECT * FROM b...')
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(388): App\Models\Rmodel->update_brand(Array, '238')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-01 05:00:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' WHERE formulation ='100% GD'' at line 1
+CRITICAL - 2022-06-01 05:00:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' WHERE formulation ='100% GD'' at line 1
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM b...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM b...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM b...')
+#3 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(287): CodeIgniter\Database\BaseConnection->query('SELECT * FROM b...')
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(388): App\Models\Rmodel->update_brand(Array, '238')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-01 05:00:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'formulation ='100% GD'' at line 1
+CRITICAL - 2022-06-01 05:00:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'formulation ='100% GD'' at line 1
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM b...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM b...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM b...')
+#3 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(287): CodeIgniter\Database\BaseConnection->query('SELECT * FROM b...')
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(388): App\Models\Rmodel->update_brand(Array, '238')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-01 05:01:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'formulation ='100% GD'' at line 1
+CRITICAL - 2022-06-01 05:01:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'formulation ='100% GD'' at line 1
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM b...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM b...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM b...')
+#3 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(287): CodeIgniter\Database\BaseConnection->query('SELECT * FROM b...')
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(388): App\Models\Rmodel->update_brand(Array, '238')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 05:17:15 --> Undefined property: stdClass::$brand
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 150, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('238')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 05:37:09 --> Undefined variable: brand
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(265): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 265, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 05:37:35 --> Undefined variable: brand
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(266): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 266, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 05:42:17 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(271): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 271, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 05:47:15 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 05:47:37 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 05:49:25 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 05:56:26 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 05:56:44 --> Trying to access array offset on value of type null
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 05:57:01 --> Trying to access array offset on value of type null
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 05:57:58 --> Undefined index: id
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(267): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 267, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 05:58:53 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 05:59:25 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 06:01:49 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 06:02:22 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 06:05:58 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 06:13:43 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 06:15:58 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 06:21:35 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '238')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('238')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 06:21:41 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 181, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('238')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 06:21:47 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 181, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('238')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 06:22:07 --> Undefined variable: dose_id
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(247): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 247, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 06:22:12 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 181, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('186')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 06:22:17 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 181, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('238')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 06:22:42 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 181, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('187')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 06:32:31 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '239')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('239')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 06:41:28 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '239')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('239')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 06:41:44 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '239')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('239')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 06:41:52 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '239')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('239')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 06:42:07 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(272): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 272, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '239')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('239')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 06:43:00 --> syntax error, unexpected '$fyp' (T_VARIABLE)
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rmod...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rmod...')
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(340): spl_autoload_call('App\\Models\\Rmod...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('239')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-01 06:48:48 --> Undefined property: stdClass::$name
+#0 D:\xampp\htdocs\rnd\app\Views\view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(44): view('view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data_view()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 06:48:54 --> Undefined property: stdClass::$name
+#0 D:\xampp\htdocs\rnd\app\Views\view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(44): view('view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data_view()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 06:49:17 --> Undefined property: stdClass::$name
+#0 D:\xampp\htdocs\rnd\app\Views\view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(44): view('view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data_view()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 06:50:06 --> Undefined property: stdClass::$name
+#0 D:\xampp\htdocs\rnd\app\Views\view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(44): view('view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data_view()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 06:50:28 --> Undefined property: stdClass::$name
+#0 D:\xampp\htdocs\rnd\app\Views\view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(44): view('view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data_view()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 06:57:34 --> Undefined property: stdClass::$name
+#0 D:\xampp\htdocs\rnd\app\Views\view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(44): view('view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data_view()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 06:59:30 --> Undefined property: stdClass::$name
+#0 D:\xampp\htdocs\rnd\app\Views\view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(44): view('view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data_view()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 06:59:49 --> Undefined property: stdClass::$cname
+#0 D:\xampp\htdocs\rnd\app\Views\view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 46, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(44): view('view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data_view()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 07:00:26 --> Undefined variable: db
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(266): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 266, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '239')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('239')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 07:00:48 --> Undefined variable: fid
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(278): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 278, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(375): App\Models\Rmodel->farmer_update(Array, '239')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('239')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-01 07:03:09 --> Unknown column 'name' in 'where clause'
+CRITICAL - 2022-06-01 07:03:09 --> Unknown column 'name' in 'where clause'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM b...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM b...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM b...')
+#3 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(304): CodeIgniter\Database\BaseConnection->query('SELECT * FROM b...')
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(388): App\Models\Rmodel->update_brand(Array, '239')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('239')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 23:26:02 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 181, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('190')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 23:45:38 --> syntax error, unexpected '$id' (T_VARIABLE)
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('239')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-01 23:45:49 --> Class 'Rmodel' not found
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('239')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-01 23:46:29 --> Too few arguments to function App\Models\Rmodel::update_brand(), 1 passed in D:\xampp\htdocs\rnd\app\Views\edit_view.php on line 165 and exactly 3 expected
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(165): App\Models\Rmodel->update_brand(Object(stdClass))
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('239')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 23:47:10 --> Too few arguments to function App\Models\Rmodel::update_brand(), 1 passed in D:\xampp\htdocs\rnd\app\Views\edit_view.php on line 165 and exactly 3 expected
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(165): App\Models\Rmodel->update_brand(Object(stdClass))
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('239')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 23:48:14 --> Undefined variable: t
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 165, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('239')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 23:48:36 --> Undefined variable: id
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 165, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('239')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 23:54:04 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('239')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

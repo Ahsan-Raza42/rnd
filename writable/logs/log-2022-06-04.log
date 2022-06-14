@@ -1,0 +1,176 @@
+CRITICAL - 2022-06-04 00:05:32 --> You must set the database table to be used with your query.
+#0 D:\xampp\htdocs\rnd\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp\htdocs\rnd\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(531): CodeIgniter\Model->__call('getallcrop', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-04 00:08:54 --> syntax error, unexpected 'as' (T_AS), expecting ')'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(533): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-04 00:09:06 --> syntax error, unexpected 'as' (T_AS), expecting ')'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(533): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-04 00:09:44 --> syntax error, unexpected 'as' (T_AS), expecting ')'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(533): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-04 00:11:06 --> Undefined variable: listen
+#0 D:\xampp\htdocs\rnd\app\Views\entry.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 8, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(533): view('entry', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-04 00:11:54 --> syntax error, unexpected 'as' (T_AS), expecting ')'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(533): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-04 00:12:38 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(533): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-04 00:17:22 --> Use of undefined constant e - assumed 'e' (this will throw an Error in a future version of PHP)
+#0 D:\xampp\htdocs\rnd\app\Views\entry.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\xampp\\htdocs...', 18, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(533): view('entry', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-04 00:28:16 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(533): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-04 01:08:38 --> syntax error, unexpected '}', expecting end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-04 01:51:27 --> Undefined property: App\Controllers\Home::$input
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(538): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 538, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->get_trial_data()
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 01:52:11 --> Undefined property: App\Controllers\Home::$input
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(538): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 538, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->get_trial_data()
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 01:52:25 --> Undefined property: App\Controllers\Home::$input
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(538): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 538, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->get_trial_data()
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 01:54:08 --> syntax error, unexpected ','
+#0 D:\xampp\htdocs\rnd\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/home/get_trial...')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/home/get_trial...')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 01:54:16 --> Undefined variable: rmodel
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(540): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 540, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->get_trial_data()
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-04 01:54:33 --> Undefined variable: id
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(374): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 374, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(541): App\Models\Rmodel->get_trial(NULL)
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->get_trial_data()
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-04 01:54:54 --> Call to a member function result() on array
+#0 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->get_trial_data()
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-04 02:20:38 --> Undefined property: stdClass::$protocol_no
+#0 D:\xampp\htdocs\rnd\app\Views\entry.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 29, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-04 02:21:34 --> Undefined property: stdClass::$protocol_no
+#0 D:\xampp\htdocs\rnd\app\Views\entry.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 29, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-04 02:21:38 --> Undefined property: stdClass::$protocol_no
+#0 D:\xampp\htdocs\rnd\app\Views\entry.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 29, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

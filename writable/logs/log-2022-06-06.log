@@ -1,0 +1,186 @@
+CRITICAL - 2022-06-06 03:18:36 --> syntax error, unexpected '}', expecting end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 04:15:50 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 04:16:01 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 04:17:01 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 04:17:05 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 04:17:28 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 05:14:23 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 05:14:34 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 05:14:36 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 05:14:37 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 05:14:46 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 05:14:52 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 05:14:57 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 05:15:02 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 05:15:06 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 05:15:10 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 05:15:27 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 05:15:29 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 05:15:52 --> syntax error, unexpected '}', expecting end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(534): view('entry', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 05:26:03 --> print_r() expects parameter 2 to be bool, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r() expec...', 'D:\\xampp\\htdocs...', 576, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(576): print_r(Array, Array)
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry_input()
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-06 05:26:45 --> Array to string conversion
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(577): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 577, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->entry_input()
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

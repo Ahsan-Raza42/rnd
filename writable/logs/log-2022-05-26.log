@@ -1,0 +1,602 @@
+ERROR - 2022-05-26 00:00:32 --> Not unique table/alias: 'crops'
+CRITICAL - 2022-05-26 00:00:32 --> Not unique table/alias: 'crops'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 00:08:27 --> Not unique table/alias: 'crops'
+CRITICAL - 2022-05-26 00:08:27 --> Not unique table/alias: 'crops'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 00:08:45 --> Not unique table/alias: 'crops'
+CRITICAL - 2022-05-26 00:08:45 --> Not unique table/alias: 'crops'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 00:14:26 --> Not unique table/alias: 'crops'
+CRITICAL - 2022-05-26 00:14:26 --> Not unique table/alias: 'crops'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 00:15:12 --> Not unique table/alias: 'crops'
+CRITICAL - 2022-05-26 00:15:12 --> Not unique table/alias: 'crops'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-26 00:15:24 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 00:15:42 --> Unknown column 'farmer.name' in 'field list'
+CRITICAL - 2022-05-26 00:15:42 --> Unknown column 'farmer.name' in 'field list'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 00:16:39 --> Unknown column 'farmer.name' in 'field list'
+CRITICAL - 2022-05-26 00:16:39 --> Unknown column 'farmer.name' in 'field list'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 00:17:31 --> Unknown column 'farmer.name' in 'field list'
+CRITICAL - 2022-05-26 00:17:31 --> Unknown column 'farmer.name' in 'field list'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 00:18:12 --> Unknown table 'rnd.farmer'
+CRITICAL - 2022-05-26 00:18:12 --> Unknown table 'rnd.farmer'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 00:18:46 --> Unknown table 'rnd.farmer'
+CRITICAL - 2022-05-26 00:18:46 --> Unknown table 'rnd.farmer'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 00:18:58 --> Unknown table 'rnd.farmer'
+CRITICAL - 2022-05-26 00:18:58 --> Unknown table 'rnd.farmer'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 00:19:12 --> Unknown table 'rnd.farmer'
+CRITICAL - 2022-05-26 00:19:12 --> Unknown table 'rnd.farmer'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 00:19:22 --> Unknown table 'rnd.farmers'
+CRITICAL - 2022-05-26 00:19:22 --> Unknown table 'rnd.farmers'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 00:20:28 --> Unknown table 'rnd.farmer'
+CRITICAL - 2022-05-26 00:20:28 --> Unknown table 'rnd.farmer'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 00:20:46 --> Unknown column 'farmer.name' in 'field list'
+CRITICAL - 2022-05-26 00:20:46 --> Unknown column 'farmer.name' in 'field list'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-26 00:55:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('115')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('115')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-26 00:56:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('115')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('115')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 00:57:05 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-05-26 00:57:05 --> Column 'id' in where clause is ambiguous
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(135): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('115')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('115')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 00:57:25 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-05-26 00:57:25 --> Column 'id' in where clause is ambiguous
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(135): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('115')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('115')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 00:57:49 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-05-26 00:57:49 --> Column 'id' in where clause is ambiguous
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(135): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('115')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('115')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 00:57:51 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-05-26 00:57:51 --> Column 'id' in where clause is ambiguous
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(135): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('115')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('115')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 00:58:03 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-05-26 00:58:03 --> Column 'id' in where clause is ambiguous
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(135): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('115')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('115')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-26 00:59:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::where_in()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('115')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('115')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 01:06:15 --> Column 'id' in on clause is ambiguous
+CRITICAL - 2022-05-26 01:06:15 --> Column 'id' in on clause is ambiguous
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(135): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('115')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('115')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 01:06:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id `)' at line 5
+CRITICAL - 2022-05-26 01:06:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id `)' at line 5
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(135): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('115')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('115')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-26 01:09:41 --> Undefined variable: buidler
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 135, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('115')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('115')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-26 01:09:54 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-05-26 01:09:54 --> Column 'id' in where clause is ambiguous
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('115')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('115')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 01:10:40 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-05-26 01:10:40 --> Column 'id' in where clause is ambiguous
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(136): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('115')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('115')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-26 05:29:20 --> syntax error, unexpected 'return' (T_RETURN)
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rmod...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rmod...')
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(38): spl_autoload_call('App\\Models\\Rmod...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data_view()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-26 05:32:29 --> syntax error, unexpected '}'
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rmod...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rmod...')
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(38): spl_autoload_call('App\\Models\\Rmod...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data_view()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-26 05:36:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-26 05:38:34 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rmod...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rmod...')
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(197): spl_autoload_call('App\\Models\\Rmod...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-26 05:39:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-26 05:52:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`planting_date as planntingdate, plot`.`replication as replication, plot`.`b...' at line 3
+CRITICAL - 2022-05-26 05:52:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`planting_date as planntingdate, plot`.`replication as replication, plot`.`b...' at line 3
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(128): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 05:57:54 --> Unknown column 'farmer.name' in 'field list'
+CRITICAL - 2022-05-26 05:57:54 --> Unknown column 'farmer.name' in 'field list'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user`.*...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.*...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.*...')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `user`.*...', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(154): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 05:58:07 --> Unknown table 'rnd.farmer'
+CRITICAL - 2022-05-26 05:58:07 --> Unknown table 'rnd.farmer'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `farmer`...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `farmer`...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `farmer`...')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `farmer`...', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(154): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 05:58:08 --> Unknown table 'rnd.farmer'
+CRITICAL - 2022-05-26 05:58:08 --> Unknown table 'rnd.farmer'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `farmer`...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `farmer`...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `farmer`...')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `farmer`...', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(154): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 05:58:08 --> Unknown table 'rnd.farmer'
+CRITICAL - 2022-05-26 05:58:08 --> Unknown table 'rnd.farmer'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `farmer`...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `farmer`...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `farmer`...')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `farmer`...', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(154): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 05:58:08 --> Unknown table 'rnd.farmer'
+CRITICAL - 2022-05-26 05:58:08 --> Unknown table 'rnd.farmer'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `farmer`...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `farmer`...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `farmer`...')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `farmer`...', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(154): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-26 05:59:31 --> Unknown column 'farmer.name' in 'field list'
+CRITICAL - 2022-05-26 05:59:31 --> Unknown column 'farmer.name' in 'field list'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user`.*...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.*...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.*...')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `user`.*...', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(154): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-26 23:40:05 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rmod...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rmod...')
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(197): spl_autoload_call('App\\Models\\Rmod...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-26 23:40:23 --> Too few arguments to function CodeIgniter\Database\BaseConnection::table(), 0 passed in D:\xampp\htdocs\rnd\app\Models\Rmodel.php on line 151 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(151): CodeIgniter\Database\BaseConnection->table()
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-26 23:43:30 --> Too few arguments to function CodeIgniter\Database\BaseConnection::table(), 0 passed in D:\xampp\htdocs\rnd\app\Models\Rmodel.php on line 151 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(151): CodeIgniter\Database\BaseConnection->table()
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-26 23:50:55 --> Too few arguments to function CodeIgniter\Database\BaseConnection::table(), 0 passed in D:\xampp\htdocs\rnd\app\Models\Rmodel.php on line 153 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(153): CodeIgniter\Database\BaseConnection->table()
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-26 23:50:57 --> Too few arguments to function CodeIgniter\Database\BaseConnection::table(), 0 passed in D:\xampp\htdocs\rnd\app\Models\Rmodel.php on line 153 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(153): CodeIgniter\Database\BaseConnection->table()
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-26 23:50:57 --> Too few arguments to function CodeIgniter\Database\BaseConnection::table(), 0 passed in D:\xampp\htdocs\rnd\app\Models\Rmodel.php on line 153 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(153): CodeIgniter\Database\BaseConnection->table()
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-26 23:50:57 --> Too few arguments to function CodeIgniter\Database\BaseConnection::table(), 0 passed in D:\xampp\htdocs\rnd\app\Models\Rmodel.php on line 153 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(153): CodeIgniter\Database\BaseConnection->table()
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-26 23:50:58 --> Too few arguments to function CodeIgniter\Database\BaseConnection::table(), 0 passed in D:\xampp\htdocs\rnd\app\Models\Rmodel.php on line 153 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(153): CodeIgniter\Database\BaseConnection->table()
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-26 23:50:58 --> Too few arguments to function CodeIgniter\Database\BaseConnection::table(), 0 passed in D:\xampp\htdocs\rnd\app\Models\Rmodel.php on line 153 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(153): CodeIgniter\Database\BaseConnection->table()
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-26 23:50:59 --> Too few arguments to function CodeIgniter\Database\BaseConnection::table(), 0 passed in D:\xampp\htdocs\rnd\app\Models\Rmodel.php on line 153 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(153): CodeIgniter\Database\BaseConnection->table()
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-26 23:51:27 --> Too few arguments to function CodeIgniter\Database\BaseConnection::table(), 0 passed in D:\xampp\htdocs\rnd\app\Models\Rmodel.php on line 153 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(153): CodeIgniter\Database\BaseConnection->table()
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-26 23:51:29 --> Too few arguments to function CodeIgniter\Database\BaseConnection::table(), 0 passed in D:\xampp\htdocs\rnd\app\Models\Rmodel.php on line 153 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(153): CodeIgniter\Database\BaseConnection->table()
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-26 23:57:10 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in D:\xampp\htdocs\rnd\app\Models\Rmodel.php on line 161
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(161): CodeIgniter\Database\BaseBuilder->orderBy('id', Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-26 23:58:03 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-05-26 23:58:03 --> Column 'id' in where clause is ambiguous
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(162): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

@@ -1,0 +1,45 @@
+CRITICAL - 2022-05-25 05:39:39 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to number
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'D:\\xampp\\htdocs...', 103, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(41): App\Models\Rmodel->crop()
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data_view()
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 06:28:16 --> Undefined variable: data
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 20, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(200): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-25 23:31:00 --> Table 'rnd.tbl_courses' doesn't exist
+CRITICAL - 2022-05-25 23:31:00 --> Table 'rnd.tbl_courses' doesn't exist
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-25 23:50:49 --> Not unique table/alias: 'crops'
+CRITICAL - 2022-05-25 23:50:49 --> Not unique table/alias: 'crops'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `crops`....', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `crops`....')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `crops`....')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `crops`....', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(129): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(198): App\Models\Rmodel->get_data('118')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('118')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

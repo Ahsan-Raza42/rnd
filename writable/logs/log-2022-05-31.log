@@ -1,0 +1,1827 @@
+CRITICAL - 2022-05-31 00:19:58 --> syntax error, unexpected '$rmodel' (T_VARIABLE)
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 00:20:14 --> syntax error, unexpected 'return' (T_RETURN)
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 00:21:24 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(283): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 00:24:48 --> You must set the database table to be used with your query.
+#0 D:\xampp\htdocs\rnd\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp\htdocs\rnd\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Model->__call('ing', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 00:25:18 --> You must set the database table to be used with your query.
+#0 D:\xampp\htdocs\rnd\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp\htdocs\rnd\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Model->__call('ing', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 00:25:27 --> You must set the database table to be used with your query.
+#0 D:\xampp\htdocs\rnd\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp\htdocs\rnd\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Model->__call('ing', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 00:26:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings()
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 00:26:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings()
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 00:26:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings()
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 00:26:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings()
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 00:27:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings()
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 00:41:10 --> syntax error, unexpected ';', expecting ')'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 00:41:21 --> syntax error, unexpected ')'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 00:41:27 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 163, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 00:41:48 --> syntax error, unexpected ''[id'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 00:41:59 --> Undefined index: id
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 163, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 00:42:24 --> Undefined index: ing_id1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 163, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 00:42:34 --> Undefined index: ing_id1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 163, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 00:44:42 --> syntax error, unexpected ')', expecting '['
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 00:45:11 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 00:45:30 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 00:45:45 --> Undefined property: stdClass::$ID
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 00:46:06 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 00:47:11 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 00:47:20 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 00:47:21 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 00:47:21 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 00:47:21 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 00:50:02 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 00:50:19 --> Array to string conversion
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 00:51:02 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 01:06:52 --> syntax error, unexpected '&', expecting end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 01:06:57 --> syntax error, unexpected '&', expecting end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 01:08:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(281): App\Models\Rmodel->get_data('191')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('191')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:21:25 --> Too few arguments to function App\Models\Rmodel::ings(), 0 passed in D:\xampp\htdocs\rnd\app\Controllers\Home.php on line 282 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings()
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:22:23 --> Too few arguments to function App\Models\Rmodel::ings(), 0 passed in D:\xampp\htdocs\rnd\app\Controllers\Home.php on line 282 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings()
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-31 01:22:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'values 200' at line 1
+CRITICAL - 2022-05-31 01:22:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'values 200' at line 1
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(63): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings('200')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-31 01:24:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'values 200' at line 1
+CRITICAL - 2022-05-31 01:24:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'values 200' at line 1
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(63): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings('200')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 01:24:40 --> Too few arguments to function App\Models\Rmodel::ings(), 0 passed in D:\xampp\htdocs\rnd\app\Controllers\Home.php on line 282 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings()
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:28:14 --> syntax error, unexpected '$rmodel' (T_VARIABLE)
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 01:28:27 --> Undefined variable: list
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:28:35 --> Trying to get property 'brand_id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:29:01 --> syntax error, unexpected ''[brand_id'' (T_CONSTANT_ENCAPSED_STRING)
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 01:29:09 --> Undefined index: brand_id
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:29:35 --> Undefined index: brand_id
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:29:52 --> Trying to get property 'brand_id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:30:04 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:30:17 --> Undefined index: id
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:31:15 --> Undefined property: App\Controllers\Home::$data
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:31:22 --> Array to string conversion
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:31:34 --> Trying to get property 'brand_id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:32:56 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 283, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:34:43 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 283, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:34:46 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 283, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:34:46 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 283, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:34:46 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 283, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:34:46 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 283, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:37:20 --> Trying to get property 'name' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 283, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:40:04 --> syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 01:41:29 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 283, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:41:55 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 283, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:44:00 --> Undefined index: id
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 283, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:44:01 --> Undefined index: id
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 283, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:45:40 --> Undefined index: id
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 283, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:45:42 --> Undefined index: id
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(283): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 283, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:45:53 --> Trying to get property 'name' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(287): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 287, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:46:19 --> Undefined index: name
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(287): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 287, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:48:21 --> Undefined offset: 0
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(287): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp\\htdocs...', 287, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:49:11 --> Undefined offset: 1
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(287): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp\\htdocs...', 287, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:49:19 --> Undefined offset: 0
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(287): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp\\htdocs...', 287, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:52:18 --> Array to string conversion
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(287): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 287, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:53:17 --> Undefined offset: 0
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(287): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp\\htdocs...', 287, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:53:26 --> Undefined offset: 1
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(287): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp\\htdocs...', 287, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:53:31 --> Undefined offset: 3
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(287): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp\\htdocs...', 287, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 01:57:02 --> syntax error, unexpected '$db' (T_VARIABLE)
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rmod...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rmod...')
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(280): spl_autoload_call('App\\Models\\Rmod...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 01:57:13 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 62, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings(Array)
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-31 01:57:29 --> Undefined index: id
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 62, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings(Array)
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-31 01:57:39 --> Undefined index: name
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 62, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings(Array)
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-31 01:58:32 --> Undefined offset: 0
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp\\htdocs...', 62, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings(Array)
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-31 01:59:14 --> Undefined offset: 3
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp\\htdocs...', 62, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings(Array)
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-31 01:59:23 --> Undefined index: name
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 62, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings(Array)
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-31 01:59:35 --> Array to string conversion
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 64, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings(Array)
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-31 01:59:54 --> Array to string conversion
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 64, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings(Array)
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-31 02:00:06 --> Array to string conversion
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 64, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings(Array)
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-31 02:03:31 --> Too few arguments to function App\Models\Rmodel::ings(), 0 passed in D:\xampp\htdocs\rnd\app\Controllers\Home.php on line 282 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings()
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 02:03:41 --> Undefined variable: e
+#0 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 64, Array)
+#1 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings()
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-31 02:03:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'values' at line 1
+CRITICAL - 2022-05-31 02:03:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'values' at line 1
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM i...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): App\Models\Rmodel->ings()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 02:03:58 --> syntax error, unexpected '$rmodel' (T_VARIABLE)
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 02:04:17 --> Class 'Rmodel' not found
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 02:05:44 --> Class 'Rmodel' not found
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-31 02:10:11 --> Not unique table/alias: 'ingredient'
+CRITICAL - 2022-05-31 02:10:11 --> Not unique table/alias: 'ingredient'
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(216): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(281): App\Models\Rmodel->get_data('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-31 02:16:10 --> Undefined variable: listi
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 37, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 02:17:11 --> Undefined variable: listi
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 37, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 02:17:12 --> Undefined variable: listi
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 37, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 02:17:12 --> Undefined variable: listi
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 37, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 02:25:56 --> Class 'Rmodel' not found
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 02:26:04 --> Undefined variable: rmodel
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 164, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(285): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 02:30:46 --> Too few arguments to function App\Controllers\Home::edit_view(), 1 passed in D:\xampp\htdocs\rnd\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-31 02:31:59 --> Too few arguments to function App\Controllers\Home::edit_view(), 1 passed in D:\xampp\htdocs\rnd\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-31 02:33:05 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 02:33:13 --> Undefined variable: list
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 02:33:21 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 02:33:41 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 02:35:28 --> Undefined index: id
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(282): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 282, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 02:43:52 --> Undefined variable: ingw
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 168, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 02:45:02 --> Undefined variable: ingw
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 168, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 02:45:37 --> Too few arguments to function App\Models\Rmodel::ings(), 0 passed in D:\xampp\htdocs\rnd\app\Controllers\Home.php on line 283 and exactly 1 expected
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(283): App\Models\Rmodel->ings()
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 02:48:57 --> Undefined variable: ingw
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 168, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 02:49:56 --> Trying to get property 'brand_id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 168, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 02:50:19 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 168, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 02:50:32 --> syntax error, unexpected ')', expecting ';' or ','
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 02:50:38 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 168, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 02:50:49 --> Undefined index: id
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 168, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 02:50:55 --> Undefined index: name
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 168, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 02:51:16 --> Undefined index: brand_id
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 168, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 02:51:29 --> Array to string conversion
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 168, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 02:51:53 --> Undefined variable: ings
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 168, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 02:55:10 --> syntax error, unexpected '43' (T_LNUMBER), expecting ')'
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rmod...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rmod...')
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(280): spl_autoload_call('App\\Models\\Rmod...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 03:04:24 --> syntax error, unexpected '.'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 03:04:35 --> syntax error, unexpected '.'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 03:04:48 --> syntax error, unexpected '.'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 03:08:24 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 03:10:11 --> Undefined property: stdClass::$id1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 176, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 03:14:11 --> Trying to get property 'id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 184, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 03:37:57 --> Array to string conversion
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp\\htdocs...', 184, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 03:39:04 --> Trying to get property 'active_ingredent' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 184, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 03:39:26 --> Undefined index: active_ingredent
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 184, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 03:39:49 --> Undefined index: active_ingredent
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 184, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 03:42:37 --> Undefined index: active_ingredent
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 184, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 03:42:38 --> Undefined index: active_ingredent
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 184, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 03:42:38 --> Undefined index: active_ingredent
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 184, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 03:42:38 --> Undefined index: active_ingredent
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 184, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 03:42:38 --> Undefined index: active_ingredent
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 184, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 03:42:47 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 03:43:00 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 03:45:25 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 03:45:26 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 03:45:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::Result()
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 04:29:23 --> syntax error, unexpected '}'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 04:29:36 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 04:29:56 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 04:30:05 --> syntax error, unexpected end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 04:30:17 --> syntax error, unexpected '}'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 04:30:59 --> syntax error, unexpected '}'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 04:31:38 --> syntax error, unexpected '}'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 04:32:09 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 04:33:08 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('200')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 04:47:40 --> Undefined variable: a1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(243): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 243, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('209')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 04:47:48 --> Undefined variable: a1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(243): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 243, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('196')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 04:52:54 --> Undefined variable: a1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(243): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 243, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 04:54:41 --> syntax error, unexpected '}', expecting end of file
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 04:57:42 --> Undefined variable: a1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(244): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 244, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 04:58:40 --> Undefined variable: a1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(244): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 244, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:00:03 --> Undefined variable: ac
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(244): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 244, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:00:16 --> Undefined variable: a1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(244): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 244, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:00:46 --> Undefined variable: a1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 242, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:01:56 --> Undefined variable: a1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 242, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:01:56 --> Undefined variable: a1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 242, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:01:57 --> Undefined variable: a1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 242, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:01:57 --> Undefined variable: a1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 242, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:02:05 --> syntax error, unexpected '?>'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 05:02:15 --> Undefined variable: c1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 255, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:02:41 --> Undefined variable: a2
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 261, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:03:03 --> Undefined variable: a1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 242, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:03:09 --> Undefined variable: a1
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 242, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('186')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:04:38 --> Undefined variable: av
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 242, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:04:48 --> Undefined variable: av
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 242, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:09:37 --> Undefined variable: db
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 173, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:13:23 --> Trying to get property 'brand_id' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(179): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 179, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:14:12 --> Trying to get property 'ing_id4' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 185, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:14:29 --> Trying to get property 'ing_id3' of non-object
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(203): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp\\htdocs...', 203, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:16:40 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 181, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('186')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:17:29 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 181, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('184')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:18:22 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 181, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('210')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:23:33 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 180, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('186')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:23:55 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 180, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('186')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:24:27 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(183): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 183, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('186')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:26:24 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(183): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 183, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('186')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:27:15 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 185, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('186')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:27:19 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(185): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 185, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('188')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:30:05 --> Undefined variable: av
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(251): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 251, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('187')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:30:25 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 181, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('187')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:33:20 --> Undefined property: stdClass::$dose_rate_active_ing
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(321): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 321, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:58:14 --> Undefined variable: dose_id
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(247): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 247, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 06:02:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 06:02:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 06:03:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(286): view('edit_view', Array)
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 06:45:45 --> Undefined variable: dose_id
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(250): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 250, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 06:45:55 --> syntax error, unexpected '}'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 06:46:03 --> Undefined property: stdClass::$dose_rate_active_ing
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(337): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 337, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('237')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 23:29:31 --> Undefined variable: ingid
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 181, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(333): view('edit_view', Array)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->edit_view('208')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 23:37:04 --> syntax error, unexpected ''edit_view);' (T_ENCAPSED_AND_WHITESPACE)
+#0 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\rnd\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-31 23:37:34 --> Undefined variable: list
+#0 D:\xampp\htdocs\rnd\app\Views\edit_view.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 17, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('edit_view', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(341): view('edit_view')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('272')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-31 23:50:48 --> Table 'rnd.crop' doesn't exist
+CRITICAL - 2022-05-31 23:50:48 --> Table 'rnd.crop' doesn't exist
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `crop` S...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `crop` S...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `crop` S...')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `crop` S...', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(222): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(351): App\Models\Rmodel->crop_update(Array, '272')
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->update('272')
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

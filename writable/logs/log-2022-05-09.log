@@ -1,0 +1,304 @@
+CRITICAL - 2022-05-09 00:33:40 --> Call to a member function flashdata() on null
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 00:46:19 --> Call to a member function flashdata() on null
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 00:52:59 --> Call to a member function flashdata() on null
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 00:54:50 --> Call to a member function flashdata() on null
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 01:04:40 --> Call to a member function flashdata() on null
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 01:08:25 --> Call to a member function flashdata() on null
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 01:08:26 --> Call to a member function flashdata() on null
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 01:08:36 --> Call to a member function flashdata() on null
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 01:08:57 --> Call to a member function flashdata() on null
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 01:10:07 --> Call to a member function flashdata() on null
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 01:10:17 --> Call to a member function flashdata() on null
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 01:10:19 --> Call to a member function flashdata() on null
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 01:11:12 --> Call to a member function flashdata() on null
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 01:11:24 --> Call to a member function flashdata() on null
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 01:11:27 --> Call to a member function flashdata() on null
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 01:12:06 --> Call to a member function flashdata() on null
+#0 D:\xampp\htdocs\rnd\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 01:12:34 --> Undefined property: CodeIgniter\View\View::$session
+#0 D:\xampp\htdocs\rnd\app\Views\index.php(428): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 428, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 02:30:52 --> Undefined property: CodeIgniter\View\View::$session
+#0 D:\xampp\htdocs\rnd\app\Views\index.php(428): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 428, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(9): view('index')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 03:37:32 --> Undefined property: App\Controllers\Home::$load
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 13, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data()
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 03:43:18 --> Undefined property: App\Controllers\Home::$load
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 13, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data()
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 04:40:59 --> Undefined property: CodeIgniter\View\View::$load
+#0 D:\xampp\htdocs\rnd\app\Views\data_entry.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 1, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('data_entry', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(13): view('data_entry')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 05:21:46 --> Invalid file: ../header.php
+#0 D:\xampp\htdocs\rnd\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../header.php')
+#1 D:\xampp\htdocs\rnd\system\View\View.php(226): CodeIgniter\View\View->render('../header', Array, true)
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('data_entry', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(13): view('data_entry')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 05:26:14 --> View themes, no current section.
+#0 D:\xampp\htdocs\rnd\app\Views\data_entry.php(69): CodeIgniter\View\View->endSection()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('data_entry', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(13): view('data_entry')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 05:26:35 --> syntax error, unexpected '?>'
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('data_entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(13): view('data_entry')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 05:28:57 --> Invalid file: ../data_entry.php
+#0 D:\xampp\htdocs\rnd\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../data_entry.p...')
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('../data_entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(13): view('../data_entry')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 05:37:59 --> Invalid file: ../data_entry.php
+#0 D:\xampp\htdocs\rnd\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../data_entry.p...')
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('../data_entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(13): view('../data_entry')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 05:37:59 --> Invalid file: ../data_entry.php
+#0 D:\xampp\htdocs\rnd\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../data_entry.p...')
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('../data_entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(13): view('../data_entry')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 05:38:00 --> Invalid file: ../data_entry.php
+#0 D:\xampp\htdocs\rnd\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../data_entry.p...')
+#1 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('../data_entry', Array, true)
+#2 D:\xampp\htdocs\rnd\app\Controllers\Home.php(13): view('../data_entry')
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data()
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-09 05:45:00 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(226): CodeIgniter\View\View->render('header', Array, true)
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('data_entry', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(13): view('data_entry')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 05:46:08 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\rnd\system\View\View.php(226): CodeIgniter\View\View->render('header', Array, true)
+#2 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('data_entry', Array, true)
+#3 D:\xampp\htdocs\rnd\app\Controllers\Home.php(13): view('data_entry')
+#4 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data()
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-09 06:36:46 --> Undefined property: CodeIgniter\View\View::$session
+#0 D:\xampp\htdocs\rnd\app\Views\data_entry.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 8, Array)
+#1 D:\xampp\htdocs\rnd\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\rnd\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\rnd\system\Common.php(1089): CodeIgniter\View\View->render('data_entry', Array, true)
+#4 D:\xampp\htdocs\rnd\app\Controllers\Home.php(13): view('data_entry')
+#5 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->data()
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

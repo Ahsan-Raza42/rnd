@@ -1,0 +1,27 @@
+CRITICAL - 2022-05-29 23:46:36 --> Undefined property: App\Controllers\Home::$rmodel
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 184, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->insert_data()
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 23:46:55 --> Too few arguments to function App\Models\Rmodel::saves(), 13 passed in D:\xampp\htdocs\rnd\app\Controllers\Home.php on line 184 and exactly 14 expected
+#0 D:\xampp\htdocs\rnd\app\Controllers\Home.php(184): App\Models\Rmodel->saves(Array, Array, Array, Array, Array, Array, Array, Array, Array, Array, Array, Array, Array)
+#1 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->insert_data()
+#2 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 23:49:08 --> Cannot add or update a child row: a foreign key constraint fails (`rnd`.`farmer`, CONSTRAINT `farmer_ibfk_2` FOREIGN KEY (`crop_id`) REFERENCES `crops` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-05-29 23:49:08 --> Cannot add or update a child row: a foreign key constraint fails (`rnd`.`farmer`, CONSTRAINT `farmer_ibfk_2` FOREIGN KEY (`crop_id`) REFERENCES `crops` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 D:\xampp\htdocs\rnd\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `fa...', 0)
+#1 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 D:\xampp\htdocs\rnd\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 D:\xampp\htdocs\rnd\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 D:\xampp\htdocs\rnd\app\Models\Rmodel.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp\htdocs\rnd\app\Controllers\Home.php(184): App\Models\Rmodel->saves(Array, Array, Array, Array, Array, Array, Array, Array, Array, Array, Array, Array, Array)
+#6 D:\xampp\htdocs\rnd\system\CodeIgniter.php(832): App\Controllers\Home->insert_data()
+#7 D:\xampp\htdocs\rnd\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\xampp\htdocs\rnd\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\rnd\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
